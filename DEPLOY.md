@@ -1,6 +1,6 @@
 # 公開の手順(Vercel + Cloudflare)
 
-**まだ公開していません。** 下の順に、あなたが操作します(公開・DNS の変更は外に出る操作のため)。
+**Vercel には公開済み(2026-11-08)**: https://portfolio-one-iota-tnzj90iibk.vercel.app (GitHub: manato1201/Portfolio と連携。push で自動デプロイ)。手順 1・2 は完了。独自ドメイン(手順 3)と動画(手順 4)は未実施。
 
 ## 1. GitHub にリポジトリを作る
 

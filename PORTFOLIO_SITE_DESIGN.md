@@ -1,6 +1,6 @@
 # 制作物まとめサイト 設計書(2026-11-07)
 
-**状態**: 一部実装(ビルドまで確認。**未デプロイ**)。UI の決めごとは [IMPROVEMENT_DESIGN_2026-10.md](IMPROVEMENT_DESIGN_2026-10.md) の「決めごと表」に従う(タイポグラフィ主役・差し色 1 つ・罫線 1px・影なし・遊びは 404 に集める)。
+**状態**: 実装済み・**Vercel に公開済み(2026-11-08)**: https://portfolio-one-iota-tnzj90iibk.vercel.app 。UI の決めごとは [IMPROVEMENT_DESIGN_2026-10.md](IMPROVEMENT_DESIGN_2026-10.md) の「決めごと表」に従う(タイポグラフィ主役・差し色 1 つ・罫線 1px・影なし・遊びは 404 に集める)。
 **個人情報**: 連絡先・経歴の詳細は載せない。公開する範囲は本人が決める。
 
 ## 1. 目的
@@ -64,7 +64,7 @@
 | 1     | 初期テンプレートの除去、トップ・ナビ        | **済**                                                                |
 | 2     | 制作物の一覧(開閉)・詳細・ロードマップ      | **済**                                                                |
 | 3     | 404・ダーク・メタ情報(OGP・sitemap・robots) | **済**(OGP 画像は `src/app/opengraph-image.tsx`。英数字のみ)          |
-| 4     | **公開**(Vercel・Cloudflare の設定)         | **未** — [DEPLOY.md](DEPLOY.md)                                       |
+| 4     | **公開**(Vercel・Cloudflare の設定)         | **Vercel は済**(GitHub 連携で push ごとに自動デプロイ)。独自ドメイン・Cloudflare は未 — [DEPLOY.md](DEPLOY.md) |
 | 5     | 動画・GIF を R2 に置いて詳細に出す          | 未(仕組みは入れた。`NEXT_PUBLIC_MEDIA_BASE` と `video:` で有効になる) |
 
 ## 8. 検証チェックリスト
@@ -79,7 +79,7 @@
 
 ## 9. 未確認・リスク
 
-- 公開 URL(`NEXT_PUBLIC_SITE_URL` の既定値は仮)。独自ドメインを使うかは未決定。
+- 公開 URL は Vercel の自動ドメイン(`NEXT_PUBLIC_SITE_URL` に設定済み)。独自ドメインを使うかは未決定。
 - UnityGameJam_B の説明は本人が書く(GitHub にも説明が無い)。LinuxNetworkGame は内容が分からないため載せていない。
 - ゲーム 3 作品(piece-peace・JunkShooting・AdvancedVAT)の説明は、各リポジトリの ARCHITECTURE.md から書いた。内容が合っているか確認する。
 - ロードマップの「項目数」は `src/lib/roadmap.ts` に手で持っている(元の ROADMAP.md が変わったら合わせる)。
