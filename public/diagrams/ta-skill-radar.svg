@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 780" width="1040" height="780" role="img" aria-labelledby="t d" font-family="'Noto Sans JP','Yu Gothic UI','Yu Gothic',Meiryo,sans-serif">
+<title id="t">Technical Artist Skill Radar</title>
+<desc id="d">CEDEC 2021「テクニカルアーティスト スキルレーダーチャート」の21項目で自己評価(0〜5)。モデリング: キャラ 1.5, 背景 2, プロシージャル 3.5 / セットアップ: リグ 2, 補助骨 1 / モーション: シミュレーション 4.5, テクニカルアニメーション 3 / VFX: エフェクト 3, エフェクトシェーダー 3 / 描画: マテリアルシェーダー 3, ライティング 2.5 / パイプライン: サーバー管理 3.5, 工程管理 2.5, データ管理 4, ゲームエンジン連携 3.5, ツール間連携 4.5 / 2D: アート 3, UI 4, アニメーション 2.5 / プログラミング: ツール開発 4.5, ゲームエンジン開発 3.5</desc>
+<rect x="0.5" y="0.5" width="1039" height="779" rx="10" fill="#1a1a19" stroke="#3c3836"/>
+<text x="28" y="44" font-size="22" font-weight="700" fill="#fe8019">Technical Artist Skill Radar</text>
+<text x="28" y="66" font-size="12" fill="#a89984">CEDEC 2021「テクニカルアーティスト スキルレーダーチャート」の21項目で自己評価(0〜5)</text>
+<path d="M340.00,132.00 A283,283 0 0 1 423.42,144.57 L396.30,232.49 A191,191 0 0 0 340.00,224.00 Z" fill="#3987e5" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(375.32,180.65) rotate(-81.43)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="0.0">キャラ</text>
+</g>
+<path d="M423.42,144.57 A283,283 0 0 1 499.42,181.17 L447.59,257.19 A191,191 0 0 0 396.30,232.49 Z" fill="#3987e5" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(442.83,201.47) rotate(-64.29)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="0.0">背景</text>
+</g>
+<path d="M499.42,181.17 A283,283 0 0 1 561.26,238.55 L489.33,295.91 A191,191 0 0 0 447.59,257.19 Z" fill="#3987e5" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(501.20,241.27) rotate(-47.14)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="0.0">プロシージャル</text>
+</g>
+<path d="M561.26,238.55 A283,283 0 0 1 603.44,311.61 L517.80,345.22 A191,191 0 0 0 489.33,295.91 Z" fill="#d95926" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(545.25,296.50) rotate(-30.00)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="0.0">リグ</text>
+</g>
+<path d="M603.44,311.61 A283,283 0 0 1 622.21,393.85 L530.47,400.73 A191,191 0 0 0 517.80,345.22 Z" fill="#d95926" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(571.06,362.26) rotate(-12.86)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="0.0">補助骨</text>
+</g>
+<path d="M622.21,393.85 A283,283 0 0 1 615.90,477.97 L526.21,457.50 A191,191 0 0 0 530.47,400.73 Z" fill="#199e70" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(576.34,432.71) rotate(4.29)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="0.0">シミュレーション</text>
+</g>
+<path d="M615.90,477.97 A283,283 0 0 1 585.09,556.50 L505.41,510.50 A191,191 0 0 0 526.21,457.50 Z" fill="#199e70" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(560.62,501.59) rotate(21.43)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="-6.5">テクニカル</text>
+<text y="6.5">アニメーション</text>
+</g>
+<path d="M585.09,556.50 A283,283 0 0 1 532.49,622.45 L469.91,555.01 A191,191 0 0 0 505.41,510.50 Z" fill="#c98500" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(525.29,562.77) rotate(38.57)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="0.0">エフェクト</text>
+</g>
+<path d="M532.49,622.45 A283,283 0 0 1 462.79,669.97 L422.87,587.09 A191,191 0 0 0 469.91,555.01 Z" fill="#c98500" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(473.51,610.82) rotate(55.71)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="-6.5">エフェクト</text>
+<text y="6.5">シェーダー</text>
+</g>
+<path d="M462.79,669.97 A283,283 0 0 1 382.18,694.84 L368.47,603.87 A191,191 0 0 0 422.87,587.09 Z" fill="#d55181" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(409.86,641.47) rotate(72.86)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="-6.5">マテリアル</text>
+<text y="6.5">シェーダー</text>
+</g>
+<path d="M382.18,694.84 A283,283 0 0 1 297.82,694.84 L311.53,603.87 A191,191 0 0 0 368.47,603.87 Z" fill="#d55181" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(340.00,652.00) rotate(90.00)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="0.0">ライティング</text>
+</g>
+<path d="M297.82,694.84 A283,283 0 0 1 217.21,669.97 L257.13,587.09 A191,191 0 0 0 311.53,603.87 Z" fill="#008300" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(270.14,641.47) rotate(287.14)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="0.0">サーバー管理</text>
+</g>
+<path d="M217.21,669.97 A283,283 0 0 1 147.51,622.45 L210.09,555.01 A191,191 0 0 0 257.13,587.09 Z" fill="#008300" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(206.49,610.82) rotate(304.29)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="0.0">工程管理</text>
+</g>
+<path d="M147.51,622.45 A283,283 0 0 1 94.91,556.50 L174.59,510.50 A191,191 0 0 0 210.09,555.01 Z" fill="#008300" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(154.71,562.77) rotate(321.43)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="0.0">データ管理</text>
+</g>
+<path d="M94.91,556.50 A283,283 0 0 1 64.10,477.97 L153.79,457.50 A191,191 0 0 0 174.59,510.50 Z" fill="#008300" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(119.38,501.59) rotate(338.57)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="-6.5">ゲームエンジン</text>
+<text y="6.5">連携</text>
+</g>
+<path d="M64.10,477.97 A283,283 0 0 1 57.79,393.85 L149.53,400.73 A191,191 0 0 0 153.79,457.50 Z" fill="#008300" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(103.66,432.71) rotate(355.71)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="0.0">ツール間連携</text>
+</g>
+<path d="M57.79,393.85 A283,283 0 0 1 76.56,311.61 L162.20,345.22 A191,191 0 0 0 149.53,400.73 Z" fill="#9085e9" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(108.94,362.26) rotate(372.86)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="0.0">アート</text>
+</g>
+<path d="M76.56,311.61 A283,283 0 0 1 118.74,238.55 L190.67,295.91 A191,191 0 0 0 162.20,345.22 Z" fill="#9085e9" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(134.75,296.50) rotate(390.00)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="0.0">UI</text>
+</g>
+<path d="M118.74,238.55 A283,283 0 0 1 180.58,181.17 L232.41,257.19 A191,191 0 0 0 190.67,295.91 Z" fill="#9085e9" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(178.80,241.27) rotate(407.14)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="0.0">アニメーション</text>
+</g>
+<path d="M180.58,181.17 A283,283 0 0 1 256.58,144.57 L283.70,232.49 A191,191 0 0 0 232.41,257.19 Z" fill="#e66767" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(237.17,201.47) rotate(424.29)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="0.0">ツール開発</text>
+</g>
+<path d="M256.58,144.57 A283,283 0 0 1 340.00,132.00 L340.00,224.00 A191,191 0 0 0 283.70,232.49 Z" fill="#e66767" fill-opacity="0.2" stroke="#1a1a19" stroke-width="2"/>
+<g transform="translate(304.68,180.65) rotate(441.43)" font-size="11" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">
+<text y="-6.5">ゲームエンジン</text>
+<text y="6.5">開発</text>
+</g>
+<path d="M340.00,116.00 A299,299 0 0 1 573.77,228.58 L564.39,236.06 A287,287 0 0 0 340.00,128.00 Z" fill="#3987e5" stroke="#1a1a19" stroke-width="2"/>
+<path d="M573.77,228.58 A299,299 0 0 1 638.16,392.66 L626.20,393.55 A287,287 0 0 0 564.39,236.06 Z" fill="#d95926" stroke="#1a1a19" stroke-width="2"/>
+<path d="M638.16,392.66 A299,299 0 0 1 598.94,564.50 L588.55,558.50 A287,287 0 0 0 626.20,393.55 Z" fill="#199e70" stroke="#1a1a19" stroke-width="2"/>
+<path d="M598.94,564.50 A299,299 0 0 1 469.73,684.39 L464.52,673.58 A287,287 0 0 0 588.55,558.50 Z" fill="#c98500" stroke="#1a1a19" stroke-width="2"/>
+<path d="M469.73,684.39 A299,299 0 0 1 295.44,710.66 L297.22,698.79 A287,287 0 0 0 464.52,673.58 Z" fill="#d55181" stroke="#1a1a19" stroke-width="2"/>
+<path d="M295.44,710.66 A299,299 0 0 1 41.84,392.66 L53.80,393.55 A287,287 0 0 0 297.22,698.79 Z" fill="#008300" stroke="#1a1a19" stroke-width="2"/>
+<path d="M41.84,392.66 A299,299 0 0 1 171.57,167.95 L178.33,177.87 A287,287 0 0 0 53.80,393.55 Z" fill="#9085e9" stroke="#1a1a19" stroke-width="2"/>
+<path d="M171.57,167.95 A299,299 0 0 1 340.00,116.00 L340.00,128.00 A287,287 0 0 0 178.33,177.87 Z" fill="#e66767" stroke="#1a1a19" stroke-width="2"/>
+<circle cx="340" cy="415" r="37.00" fill="none" stroke="#504945" stroke-width="0.8"/>
+<circle cx="340" cy="415" r="74.00" fill="none" stroke="#504945" stroke-width="0.8"/>
+<circle cx="340" cy="415" r="111.00" fill="none" stroke="#504945" stroke-width="0.8"/>
+<circle cx="340" cy="415" r="148.00" fill="none" stroke="#504945" stroke-width="0.8"/>
+<circle cx="340" cy="415" r="185.00" fill="none" stroke="#504945" stroke-width="1.2"/>
+<line x1="340" y1="415" x2="367.57" y2="232.07" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="420.27" y2="248.32" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="465.83" y2="279.39" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="500.21" y2="322.50" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="520.36" y2="373.83" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="524.48" y2="428.83" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="512.21" y2="482.59" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="484.64" y2="530.35" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="444.21" y2="567.85" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="394.53" y2="591.78" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="340.00" y2="600.00" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="285.47" y2="591.78" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="235.79" y2="567.85" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="195.36" y2="530.35" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="167.79" y2="482.59" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="155.52" y2="428.83" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="159.64" y2="373.83" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="179.79" y2="322.50" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="214.17" y2="279.39" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="259.73" y2="248.32" stroke="#3c3836" stroke-width="0.8"/>
+<line x1="340" y1="415" x2="312.43" y2="232.07" stroke="#3c3836" stroke-width="0.8"/>
+<polygon points="348.27,360.12 372.11,348.33 428.08,320.07 404.09,378.00 376.07,406.77 506.03,427.44 443.33,455.55 426.78,484.21 402.53,506.71 372.72,521.07 340.00,507.50 301.83,538.75 287.89,491.43 224.29,507.28 219.45,462.31 173.97,427.44 231.78,390.30 211.83,341.00 277.08,347.19 267.76,264.99 320.70,286.95" fill="#fe8019" fill-opacity="0.28" stroke="#fe8019" stroke-width="2" stroke-linejoin="round"/>
+<text x="343" y="376.0" font-size="9" fill="#a89984">1</text>
+<text x="343" y="339.0" font-size="9" fill="#a89984">2</text>
+<text x="343" y="302.0" font-size="9" fill="#a89984">3</text>
+<text x="343" y="265.0" font-size="9" fill="#a89984">4</text>
+<text x="343" y="228.0" font-size="9" fill="#a89984">5</text>
+<circle cx="348.27" cy="360.12" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>モデリング / キャラ: 1.5 / 5 - Cinema 4Dのキャラクターアニメ課題(高校)。Blenderは流体ビューア・MCP自動化が中心で、キャラ制作の実績は少ない</title></circle>
+<circle cx="372.11" cy="348.33" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>モデリング / 背景: 2 / 5 - Unity HDRPの屋外シーン、UE(UnrealGame)での基礎的なレベル構築。体系化は途上</title></circle>
+<circle cx="428.08" cy="320.07" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>モデリング / プロシージャル: 3.5 / 5 - Houdini HDA、MagicCircleGenerator(7種のプロシージャル生成・シード決定論)、FluidKit→Houdini連携</title></circle>
+<circle cx="404.09" cy="378.00" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>セットアップ / リグ: 2 / 5 - Siv3DでFBXのスケルタル・スキニング・IKを自前実装(仕組みは理解)。DCC上のリギング実務は少なく、Mayaはほぼ未使用</title></circle>
+<circle cx="376.07" cy="406.77" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>セットアップ / 補助骨: 1 / 5 - スキニング/IK課題の範囲のみ。補助骨セットアップの制作実績はまだない</title></circle>
+<circle cx="506.03" cy="427.44" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>モーション / シミュレーション: 4.5 / 5 - 自作の流体エンジン一式(SPH/FLIP/Stable Fluids)、GNN Neural Fluid(1.13Mパラメータ)、WASMリアルタイムSPH、SHA-256状態ハッシュによる再現性保証</title></circle>
+<text x="519.0" y="428.4" font-size="11" font-weight="700" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">4.5</text>
+<circle cx="443.33" cy="455.55" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>モーション / テクニカルアニメーション: 3 / 5 - IK・モーションブレンド・スキニング(Siv3D)、VAT(AdvancedVAT)</title></circle>
+<circle cx="426.78" cy="484.21" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>VFX / エフェクト: 3 / 5 - VRCEffectFrameWork(Udon/アニメーション多数)、Siv3Dのパーティクル/ビルボード、CGWORLD GALLERY応募(UE+Houdini)制作中。Niagaraは学習中</title></circle>
+<circle cx="402.53" cy="506.71" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>VFX / エフェクトシェーダー: 3 / 5 - HLSL/ShaderLabでのHDRPブラックホール表現、VRChat向けシェーダー。Compute Shaderは体系化の途中</title></circle>
+<circle cx="372.72" cy="521.07" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>描画 / マテリアルシェーダー: 3 / 5 - HLSL/ShaderLabの自作、mini-renderer(CPU/GPU)のシェーディング実装。UEのMaterialはこれから</title></circle>
+<circle cx="340.00" cy="507.50" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>描画 / ライティング: 2.5 / 5 - HDRPのライティング、mini-rendererの陰影計算。GI・パストレーシングは今後の学習対象</title></circle>
+<circle cx="301.83" cy="538.75" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>パイプライン / サーバー管理: 3.5 / 5 - WSL2+systemd、Docker(pgvector)、GitHub Actions、Cloudflare Workers/Vercelでの公開・運用</title></circle>
+<circle cx="287.89" cy="491.43" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>パイプライン / 工程管理: 2.5 / 5 - 授業での週報・プロジェクト運営、ToolOrchestrationHubによるツール群の監視。Perforce/ShotGridは未経験</title></circle>
+<circle cx="224.29" cy="507.28" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>パイプライン / データ管理: 4 / 5 - SQLite/PostgreSQL+pgvector、RAG(Houdiniヘルプ7810ファイル)、AssetDataInsightSuite(取込→検知→集計→出力)</title></circle>
+<text x="214.1" y="515.4" font-size="11" font-weight="700" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">4</text>
+<circle cx="219.45" cy="462.31" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>パイプライン / ゲームエンジン連携: 3.5 / 5 - Unityでの製品出荷(Steam「Qualial Nature」)、UE基礎、FluidKit→VAT→Niagaraの連携設計(FluidToUnreal)</title></circle>
+<circle cx="173.97" cy="427.44" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>パイプライン / ツール間連携: 4.5 / 5 - Blender MCP・Houdini RAG MCP・mcp-rag-server、NPZによるBlender連携、ToolOrchestrationHub、Houdiniパネル(PySide6 約9,900行)</title></circle>
+<text x="161.0" y="428.4" font-size="11" font-weight="700" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">4.5</text>
+<circle cx="231.78" cy="390.30" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>2D / アート: 3 / 5 - Clip Studioのイラスト多数、Asepriteのドット絵、ゲーム素材(ひび割れ・血痕など)</title></circle>
+<circle cx="211.83" cy="341.00" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>2D / UI: 4 / 5 - Next.js/React/Qt6・QMLで複数アプリを実装、UI設計原則の文書化、インターフェースデザイン理論(授業)</title></circle>
+<text x="200.6" y="334.5" font-size="11" font-weight="700" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">4</text>
+<circle cx="277.08" cy="347.19" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>2D / アニメーション: 2.5 / 5 - CSSステップアニメ(FoundationsEncyclopedia)、pixi.jsによるアルゴリズム可視化(The-Algorithm-Illustrated)、Asepriteのドット絵</title></circle>
+<circle cx="267.76" cy="264.99" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>プログラミング / ツール開発: 4.5 / 5 - Houdini PySide6パネル、MCPサーバー、IDE拡張(FlowchartVisualizerExtension)、QA・アセット解析・計測ツール群</title></circle>
+<text x="262.1" y="253.3" font-size="11" font-weight="700" fill="#ebdbb2" text-anchor="middle" dominant-baseline="central">4.5</text>
+<circle cx="320.70" cy="286.95" r="4" fill="#fe8019" stroke="#1a1a19" stroke-width="2"><title>プログラミング / ゲームエンジン開発: 3.5 / 5 - mini-renderer(CPU/GPU)、Siv3D 3Dゲーム基盤、WASM SPH(外部依存ゼロのC++)</title></circle>
+<rect x="444.7" y="94.2" width="87.0" height="26" rx="13" fill="#3987e5" stroke="#1a1a19" stroke-width="2"/>
+<text x="488.2" y="107.2" font-size="13" font-weight="700" fill="#1d2021" text-anchor="middle" dominant-baseline="central">モデリング</text>
+<rect x="627.2" y="269.6" width="100.0" height="26" rx="13" fill="#d95926" stroke="#1a1a19" stroke-width="2"/>
+<text x="677.2" y="282.6" font-size="13" font-weight="700" fill="#1d2021" text-anchor="middle" dominant-baseline="central">セットアップ</text>
+<rect x="643.9" y="481.3" width="87.0" height="26" rx="13" fill="#199e70" stroke="#1a1a19" stroke-width="2"/>
+<text x="687.4" y="494.3" font-size="13" font-weight="700" fill="#1d2021" text-anchor="middle" dominant-baseline="central">モーション</text>
+<rect x="545.8" y="648.3" width="45.4" height="26" rx="13" fill="#c98500" stroke="#1a1a19" stroke-width="2"/>
+<text x="568.5" y="661.3" font-size="13" font-weight="700" fill="#1d2021" text-anchor="middle" dominant-baseline="central">VFX</text>
+<rect x="364.8" y="725.8" width="48.0" height="26" rx="13" fill="#d55181" stroke="#1a1a19" stroke-width="2"/>
+<text x="388.8" y="738.8" font-size="13" font-weight="700" fill="#1d2021" text-anchor="middle" dominant-baseline="central">描画</text>
+<rect x="10.0" y="625.3" width="100.0" height="26" rx="13" fill="#008300" stroke="#1a1a19" stroke-width="2"/>
+<text x="60.0" y="638.3" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="central">パイプライン</text>
+<rect x="32.1" y="235.1" width="37.6" height="26" rx="13" fill="#9085e9" stroke="#1a1a19" stroke-width="2"/>
+<text x="50.9" y="248.1" font-size="13" font-weight="700" fill="#1d2021" text-anchor="middle" dominant-baseline="central">2D</text>
+<rect x="183.3" y="77.0" width="113.0" height="26" rx="13" fill="#e66767" stroke="#1a1a19" stroke-width="2"/>
+<text x="239.8" y="90.0" font-size="13" font-weight="700" fill="#1d2021" text-anchor="middle" dominant-baseline="central">プログラミング</text>
+<text x="752" y="112" font-size="13" font-weight="700" fill="#ebdbb2">カテゴリ別 平均スコア</text>
+<circle cx="758" cy="146" r="5" fill="#e66767"/>
+<text x="772" y="146" font-size="13" fill="#ebdbb2" dominant-baseline="central">プログラミング</text>
+<rect x="880" y="143" width="100" height="6" rx="3" fill="#3c3836"/>
+<rect x="880" y="143" width="80.0" height="6" rx="3" fill="#fe8019"/>
+<text x="1016" y="146" font-size="13" fill="#ebdbb2" text-anchor="end" dominant-baseline="central">4.0</text>
+<circle cx="758" cy="178" r="5" fill="#199e70"/>
+<text x="772" y="178" font-size="13" fill="#ebdbb2" dominant-baseline="central">モーション</text>
+<rect x="880" y="175" width="100" height="6" rx="3" fill="#3c3836"/>
+<rect x="880" y="175" width="75.0" height="6" rx="3" fill="#fe8019"/>
+<text x="1016" y="178" font-size="13" fill="#ebdbb2" text-anchor="end" dominant-baseline="central">3.8</text>
+<circle cx="758" cy="210" r="5" fill="#008300"/>
+<text x="772" y="210" font-size="13" fill="#ebdbb2" dominant-baseline="central">パイプライン</text>
+<rect x="880" y="207" width="100" height="6" rx="3" fill="#3c3836"/>
+<rect x="880" y="207" width="72.0" height="6" rx="3" fill="#fe8019"/>
+<text x="1016" y="210" font-size="13" fill="#ebdbb2" text-anchor="end" dominant-baseline="central">3.6</text>
+<circle cx="758" cy="242" r="5" fill="#9085e9"/>
+<text x="772" y="242" font-size="13" fill="#ebdbb2" dominant-baseline="central">2D</text>
+<rect x="880" y="239" width="100" height="6" rx="3" fill="#3c3836"/>
+<rect x="880" y="239" width="63.3" height="6" rx="3" fill="#fe8019"/>
+<text x="1016" y="242" font-size="13" fill="#ebdbb2" text-anchor="end" dominant-baseline="central">3.2</text>
+<circle cx="758" cy="274" r="5" fill="#c98500"/>
+<text x="772" y="274" font-size="13" fill="#ebdbb2" dominant-baseline="central">VFX</text>
+<rect x="880" y="271" width="100" height="6" rx="3" fill="#3c3836"/>
+<rect x="880" y="271" width="60.0" height="6" rx="3" fill="#fe8019"/>
+<text x="1016" y="274" font-size="13" fill="#ebdbb2" text-anchor="end" dominant-baseline="central">3.0</text>
+<circle cx="758" cy="306" r="5" fill="#d55181"/>
+<text x="772" y="306" font-size="13" fill="#ebdbb2" dominant-baseline="central">描画</text>
+<rect x="880" y="303" width="100" height="6" rx="3" fill="#3c3836"/>
+<rect x="880" y="303" width="55.0" height="6" rx="3" fill="#fe8019"/>
+<text x="1016" y="306" font-size="13" fill="#ebdbb2" text-anchor="end" dominant-baseline="central">2.8</text>
+<circle cx="758" cy="338" r="5" fill="#3987e5"/>
+<text x="772" y="338" font-size="13" fill="#ebdbb2" dominant-baseline="central">モデリング</text>
+<rect x="880" y="335" width="100" height="6" rx="3" fill="#3c3836"/>
+<rect x="880" y="335" width="46.7" height="6" rx="3" fill="#fe8019"/>
+<text x="1016" y="338" font-size="13" fill="#ebdbb2" text-anchor="end" dominant-baseline="central">2.3</text>
+<circle cx="758" cy="370" r="5" fill="#d95926"/>
+<text x="772" y="370" font-size="13" fill="#ebdbb2" dominant-baseline="central">セットアップ</text>
+<rect x="880" y="367" width="100" height="6" rx="3" fill="#3c3836"/>
+<rect x="880" y="367" width="30.0" height="6" rx="3" fill="#fe8019"/>
+<text x="1016" y="370" font-size="13" fill="#ebdbb2" text-anchor="end" dominant-baseline="central">1.5</text>
+<text x="752" y="422" font-size="13" font-weight="700" fill="#ebdbb2">評価基準</text>
+<text x="752" y="446" font-size="12" font-weight="700" fill="#fe8019">5</text>
+<text x="770" y="446" font-size="12" fill="#a89984">専門: 他者に教えられ、成果物で示せる</text>
+<text x="752" y="466" font-size="12" font-weight="700" fill="#fe8019">4</text>
+<text x="770" y="466" font-size="12" fill="#a89984">得意: 複数の成果物で実績あり</text>
+<text x="752" y="486" font-size="12" font-weight="700" fill="#fe8019">3</text>
+<text x="770" y="486" font-size="12" fill="#a89984">実用: 成果物で実際に使った</text>
+<text x="752" y="506" font-size="12" font-weight="700" fill="#fe8019">2</text>
+<text x="770" y="506" font-size="12" fill="#a89984">基礎: 学習・課題レベル</text>
+<text x="752" y="526" font-size="12" font-weight="700" fill="#fe8019">1</text>
+<text x="770" y="526" font-size="12" fill="#a89984">触れた程度</text>
+<text x="752" y="546" font-size="12" font-weight="700" fill="#fe8019">0</text>
+<text x="770" y="546" font-size="12" fill="#a89984">未経験</text>
+<text x="752" y="752" font-size="11" fill="#a89984">自己評価。項目ごとの根拠は README の詳細表を参照。</text>
+</svg>

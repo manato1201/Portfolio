@@ -1,40 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Portfolio — 制作物まとめサイト
 
-## Getting Started
+`manato1201` の制作物と、学習・制作のロードマップをまとめた静的サイト。
+**Next.js 16.2.10 + React 19.2.4 + TypeScript(App Router)**。他のサイト(The-Algorithm-Illustrated・ColorEncyclopedia・FoundationsEncyclopedia)と同じ版・同じ作りで、**gray-matter + marked で markdown を読み込み**、**Vercel** に載せ、動画などの重いメディアは **Cloudflare(R2 + Worker)** に置く。
 
-First, run the development server:
+- 設計: [PORTFOLIO_SITE_DESIGN.md](PORTFOLIO_SITE_DESIGN.md)(画面・データ・構成図)
+- 公開の手順: [DEPLOY.md](DEPLOY.md)
+- UI の決めごと: [IMPROVEMENT_DESIGN_2026-10.md](IMPROVEMENT_DESIGN_2026-10.md)
+
+## 使い方
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev        # http://localhost:3000
+npm run verify     # content/works の形を検査
+npm run lint
+npm run build      # 先に verify が自動で走る
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 制作物を足す・直す
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+`content/works/<slug>.md` を 1 つ足すだけ(コードは変えない)。
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```markdown
+---
+title: "名前"
+subtitle: "ひとこと"
+category: "アプリ・Web"      # 卒業研究 / アプリ・Web / 補助ツール / 学習成果物 / ゲーム
+order: 1                      # 分類の中の並び
+since: "2026-08"
+featured: false               # true にするとトップの「まずはここから」に出る
+summary: "概要を 1〜2 文"
+tech: ["Next.js 16", "Rust"]
+github: "https://github.com/manato1201/<repo>"
+demo: ""                      # あれば https のみ
+diagram: ""                   # public/diagrams/<name>.svg の name
+---
+本文(markdown)
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## 構成
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+content/works/     制作物 1 件 = 1 ファイル
+public/diagrams/   構成図(SVG)。元は ProfileReadme/tools/diagrams/specs
+src/app/           ページ(/ /works /works/[slug] /roadmap /about /404)
+src/lib/           site.ts(設定)・works.ts(読み込み)・roadmap.ts(項目数)
+scripts/           verify-works.mjs
+```
 
-## Learn More
+## 環境変数(任意)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+| 名前 | 用途 |
+|---|---|
+| `NEXT_PUBLIC_SITE_URL` | 本番の URL(OGP・sitemap)。未設定なら `src/lib/site.ts` の既定値 |
+| `NEXT_PUBLIC_MEDIA_BASE` | 動画を置く R2(Worker)の URL。未設定なら動画は表示しない |
