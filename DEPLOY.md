@@ -32,6 +32,14 @@ gh repo create manato1201/Portfolio --public --source . --push
 3. 作品の markdown に `video: "<R2 上のパス>"` を書き、Vercel の環境変数 `NEXT_PUBLIC_MEDIA_BASE` に Worker の URL を設定する。
 4. R2 の公開バケットは **CORS** の設定が無いと、ブラウザが読めない場合がある(WeatherGeoBridge で起きた)。`wrangler r2 bucket cors set` で設定する。
 
+## セキュリティヘッダ
+
+`next.config.ts` の `headers()` が、CSP・nosniff・Referrer-Policy・X-Frame-Options・Permissions-Policy・COOP・HSTS を付ける。
+
+- 動画を載せるときは `NEXT_PUBLIC_MEDIA_BASE` を設定すると、その origin が CSP の `media-src` に入る(設定しないと動画は読めない)。
+- 外部のスクリプト・画像・フォント・iframe を足すときは、`next.config.ts` の CSP に origin を足す。足さないとブラウザがブロックする(コンソールに `Content Security Policy` の違反が出る)。
+- 公開後は `curl -I https://<公開 URL>/` で、ヘッダが付いているか(Vercel 側と二重になっていないか)を確認する。
+
 ## 5. 公開前の確認
 
 - [ ] `/works` の行が開く(キーボードの Enter / Space でも)
