@@ -28,7 +28,9 @@ export function ThemeToggle() {
         }
       }}
     >
-      <span aria-hidden="true">{dark ? "☀" : "☾"}</span>
+      <span key={dark ? "dark" : "light"} className="theme-icon" aria-hidden="true">
+        {dark ? "☀" : "☾"}
+      </span>
     </button>
   );
 }
